@@ -36,8 +36,8 @@ def write_ply(fn, verts, colors):
 def main():
     print('loading images...')
     # downscale images for faster processing
-    imgL = cv.pyrDown(cv.imread(cv.samples.findFile('images/correctOne.png')))
-    imgR = cv.pyrDown(cv.imread(cv.samples.findFile('images/correctTwo.png')))
+    imgL = cv.pyrDown(cv.imread(cv.samples.findFile('images/phonesLeft.png')))
+    imgR = cv.pyrDown(cv.imread(cv.samples.findFile('images/phonesRight.png')))
     # imgL = cv.pyrDown(cv.imread(cv.samples.findFile('images/aloeL.jpg')))
     # imgR = cv.pyrDown(cv.imread(cv.samples.findFile('images/aloeR.jpg')))
 
